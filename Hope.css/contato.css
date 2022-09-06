@@ -1,0 +1,107 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    overflow-x: hidden;
+    
+     
+}
+
+@media (max-width: 575px){
+    main .container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+.site-header {
+    background-color: darkkhaki;
+    background-repeat: no-repeat;
+    height: 84px;
+    margin-top: 0px;
+}
+.site-header h1 {
+    color: green;
+}
+
+.site-header a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+span {
+    align-content: left;
+    color: black;
+    font-size: 28px;
+}
+
+.site-header h3 {
+    color: black;
+    align-items: center;
+    width: 10px;
+    top: -10;
+    
+}
+
+
+
+
+
+
+/*-----footer------*/
+
+footer .w-100{
+    background-color: darkkhaki; 
+    border-top: 2px solid green;
+    padding-top: 2em;    
+    
+    
+    
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: black
+}
+
+
+.rodape h1{
+    text-align: left;
+    margin-bottom: auto;
+    margin: 10px;
+    margin-left: 82px;
+    margin-right: 82px;
+    color: green;
+    
+}
+
+title h5 {
+    text-align: left;
+    margin-bottom: auto;
+    margin: 10px;
+    margin-left: 82px;
+    margin-right: 82px;
+    color: green;
+    
+}
+
+.social-links {
+
+    display: inline-block;
+    text-align: end;
+    
+}
+
+
+.social-links a {
+    bottom: 10px;
+    color: red;
+
+
+}
+

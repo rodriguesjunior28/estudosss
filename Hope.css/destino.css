@@ -1,0 +1,124 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 0;
+    overflow-x: hidden;
+}
+
+@media (max-width: 575px) {
+    main .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        height: auto;
+    }
+
+    .card-deck {
+        width: 50%;
+    }
+
+    .card-deck .card .card-body img {
+        width: 100%;
+
+    }
+
+    .card-deck .card .card-body a {
+        width: 100%;
+    }
+}
+
+
+
+
+/*-----header------*/
+
+
+.site-header {
+    background-color: darkkhaki;
+    background-repeat: no-repeat;
+    height: 84px;
+    margin-top: 0px;
+}
+
+.site-header h1 {
+    color: green;
+}
+
+.site-header a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+span {
+    align-content: left;
+    color: black;
+    font-size: 28px;
+}
+
+.site-header h3 {
+    color: black;
+    align-items: center;
+    width: 10px;
+    top: -10;
+
+}
+
+
+.card-title {
+    text-align: center;
+    align-items: center;
+}
+
+
+.card-deck .card{
+    border-radius: 6%;
+    padding: 2%;
+    
+}
+
+
+.card-footer {
+    margin-inline: auto;
+}
+
+
+
+
+
+/*-----footer------*/
+
+footer {
+    background-color: darkkhaki;
+    padding-top: 0em;
+    padding-bottom: 0px;
+    border-top: 2px solid green;
+    text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: black
+}
+
+.rodape h1 {
+    text-align: left;
+    margin-bottom: auto;
+    margin: 10px;
+    margin-left: 82px;
+    margin-right: 82px;
+    color: green;
+
+}
+
+.social-links {
+    display: inline-block;
+    text-align: end;
+}
+
+
+.social-links a {
+    bottom: 10px;
+    color: red;
+}
